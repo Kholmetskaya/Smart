@@ -25,8 +25,7 @@ var gulp = require('gulp'),
         .pipe(less())
         .pipe(autoprefixer('last 2 versions'))
         .pipe(cleanCSS())
-        .pipe(concat('index.css'))
-		.pipe(gulp.dest('public/css'));
+		.pipe(gulp.dest('public/css/'));
 	
 });
 // Задача "js". Запускается командой "gulp js"
